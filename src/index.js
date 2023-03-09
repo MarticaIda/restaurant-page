@@ -1,7 +1,7 @@
 import loadMain, { content } from './main-page'
 import loadMenu from './menu'
 import loadContact from './contact'
-import './style.css'
+// import './style.css'
 
 loadMain()
 
