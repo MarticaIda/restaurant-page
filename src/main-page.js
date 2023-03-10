@@ -1,3 +1,5 @@
+import Background from './fire-hero.jpg'
+
 export const content = document.getElementById('content')
 export default function loadMain () {
   const headline = document.createElement('h1')
@@ -5,7 +7,7 @@ export default function loadMain () {
   content.appendChild(headline)
 
   const imgHero = document.createElement('img')
-  imgHero.setAttribute('src', '/src/fire-hero.jpg')
+  imgHero.setAttribute('src', Background)
   content.appendChild(imgHero)
 
   const aboutSpan = document.createElement('span')
